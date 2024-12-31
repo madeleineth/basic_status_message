@@ -7,5 +7,5 @@ license = "CC-PDDC"
 [dependencies]
 chrono = ">=0.4"
 clap = { version = ">=4.5", features = ["derive"], default-features = true }
-inotify = {version = ">=0.11", default-features = false}
+inotify = { version = ">=0.11", default-features = false }
 nix = { version = ">=0.29", features = ["poll"], default-features = false }
