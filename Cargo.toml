@@ -1,0 +1,11 @@
+[package]
+name = "basic_status_message"
+version = "0.1.0"
+edition = "2021"
+license = "CC-PDDC"
+
+[dependencies]
+chrono = ">=0.4"
+clap = { version = ">=4.5", features = ["derive"], default-features = true }
+inotify = {version = ">=0.11", default-features = false}
+nix = { version = ">=0.29", features = ["poll"], default-features = false }
